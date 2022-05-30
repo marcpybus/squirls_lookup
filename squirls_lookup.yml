@@ -1,0 +1,28 @@
+version: "3.7"
+services:
+  ingress:
+    image: nginx:1.17.6
+    ports:
+      - "5000:80"
+    volumes:
+      - ./nginx-gunicorn.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - server
+
+  server:
+    init: true
+    build: 
+      context: ./server
+      dockerfile: Dockerfile
+    expose:
+      - "5000"
+    volumes:
+      - type: bind
+        source: ./2203_hg19
+        target: /data_hg19
+      - type: bind
+        source: ./2203_hg38
+        target: /data_hg38
+      - type: bind
+        source: ./squirls-cli-2.0.0-distribution
+        target: /squirls
