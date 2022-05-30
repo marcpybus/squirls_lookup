@@ -6,9 +6,8 @@ It can be installed via Docker Compose (tested on Ubuntu 18.04 / 20.04 ).
 
 * you need to configure Docker and Docker Compose before installing this package
 
-squirls_lookup is based on a simple Python's Flask app that runs SQUIRLS 2.0.
-On top of that, gunicorn is used as WSGI HTTP Server and Nginx as reverse proxy 
-
+> squirls_lookup is based on a simple Python's Flask app that runs SQUIRLS 2.0.  
+> On top of that, gunicorn is used as WSGI HTTP Server and Nginx as reverse proxy 
 
 ### Configuration
 
