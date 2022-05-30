@@ -1,4 +1,3 @@
-version: "3.7"
 services:
   ingress:
     image: nginx:1.17.6
