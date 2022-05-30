@@ -1,4 +1,4 @@
-version: "3"
+version: "3.2"
 services:
   ingress:
     image: nginx:1.17.6
@@ -10,7 +10,6 @@ services:
       - server
 
   server:
-    init: true
     build: 
       context: ./server
       dockerfile: Dockerfile
