@@ -45,6 +45,6 @@ It can be installed via Docker Compose (tested on Ubuntu 18.04 / 20.04 ).
 	
 > http://localhost:5000/squirls/hg19/refseq/chr16:2166832-A-G  
 > http://192.168.103.120:5000/squirls/hg19/ensembl/chr16:2166832-A-G  
-> http://192.168.103.113:5000/squirls/hg19/ucsc/chr16:2166832-A-G  
+> http://192.168.103.112:5000/squirls/hg19/ucsc/chr16:2166832-A-G  
 
 * you can choose among refseq, ensembl or ucsc databases and between genome versions hg19 or hg38
