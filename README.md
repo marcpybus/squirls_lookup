@@ -2,7 +2,9 @@
 ## squirls_lookup: A look up server for SQUIRLS 2.0
 
 This application functions as an online & easy look up server for Squirls software.  
-It can be readily installed via Docker Compose on any server (tested on Ubuntu Server).  
+It can be installed via Docker Compose (tested on Ubuntu 18.04 / 20.04 ).  
+
+* you need to configure Docker and Docker Compose before installing this package
 
 ### Configuration
 
