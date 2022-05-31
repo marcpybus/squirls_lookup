@@ -13,7 +13,7 @@ squirls_data_hg38 = "/data_hg38"
 app = flask.Flask(__name__)
 
 @app.route('/squirls/<genome>/<database>/<variant_id>')
-def refseq_hgrun_squirls(database,genome,variant_id):
+def run_squirls(database,genome,variant_id):
 
     if database in {"refseq","ensembl","ucsc"} and genome in {"hg19","hg38"}:
 
