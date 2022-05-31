@@ -3,11 +3,10 @@
 
 This application functions as an online & easy look up server for Squirls software.  
 It can be installed via Docker Compose (tested on Ubuntu 18.04 / 20.04 ).  
-
-* you need to configure Docker and Docker Compose before installing this package
+You will need to configure Docker and Docker Compose before installing this package
 
 > squirls_lookup is based on a simple Python's Flask app that runs SQUIRLS 2.0.  
-> On top of that, gunicorn is used as WSGI HTTP Server and Nginx as reverse proxy 
+> On top of that, gunicorn is used as WSGI HTTP Server and Nginx as reverse proxy server.
 
 ### Configuration
 
