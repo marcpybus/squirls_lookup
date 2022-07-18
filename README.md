@@ -21,7 +21,7 @@ You will need to configure Docker and Docker Compose before installing this pack
 
 `$ cd squirls_lookup`  
 `$ wget https://storage.googleapis.com/squirls/2203_hg19.zip`  
-`$ wget https://storage.googleapis.com/squirls/2203_hg39.zip`  
+`$ wget https://storage.googleapis.com/squirls/2203_hg38.zip`  
 `$ unzip 2203_hg19.zip -d 2203_hg19`  
 `$ unzip 2203_hg38.zip -d 2203_hg38`  
 
